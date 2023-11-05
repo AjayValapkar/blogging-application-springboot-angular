@@ -1,0 +1,3 @@
+[submodule "linkmingle"]
+	path = linkmingle
+	url = https://github.com/AjayValapkar/blogging-application-springboot-angular.git
