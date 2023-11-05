@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../../../../assets/YoungSerif-Regular.ttf');
+}
+
+.nav {
+    padding: 1%;
+    background-color: rgb(247, 251, 255);
+
+}
+
+.nav .nav-item {
+    margin-right: 2%;
+}
+
+.nav .nav-item .nav-link {
+    font-size: 20px;
+    font-weight:350;
+    color: black;
+    cursor: pointer;
+}

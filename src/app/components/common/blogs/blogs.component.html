@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="blogs">
+
+                <div class="card" *ngFor="let post of displayedPosts">
+                    <div class="card-header">
+                        {{post.title}}
+                        <div class="float-end"> 12 Likes</div>
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>{{post.content}}</p>
+                        </blockquote>
+                    </div>
+                    <!-- <div class="card-footer ">
+                        <div class="actions ">
+                            <button routerLink="/blogs/commnet">Comment</button>
+                            <mat-icon color="primary" aria-hidden="false" aria-label="Example thumbs-up icon"
+                                mat-icon="thumbs-up">thumbs_up</mat-icon>
+                            <button>Dislike</button>
+                        </div>
+                       
+                    </div> -->
+                </div>
+                <div class="float-end load">
+                    <button (click)="loadBlogs()">load More</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <app-category (categorySelected)="onCategorySelect($event)"></app-category>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../../../../assets/YoungSerif-Regular.ttf');
+  }
+.home {
+    margin-top: -6%;
+    top: 0;
+    background-color: rgb(212, 234, 255);
+    padding: 13% 10% 9% 10%;
+}
+
+.home .col-sm-7 {
+    padding: 2% 4% 2% 2%;
+}
+.home .col-sm-5{
+    padding: 0;
+}
+
+.home .col-sm-5 img {
+    width: 100%;
+}
+.home .col-sm-7 .welcome{
+    padding-bottom: 4%;
+}
+.home .col-sm-7 .welcome h1 {
+    font-family: MyFont;
+    font-weight: 750;
+    font-size: 3.5rem;
+
+}
+.home .col-sm-7 .welcome h3{
+    font-family: MyFont;
+    font-size: 22px;
+    font-weight:100;
+    letter-spacing: 2px;
+}
+.blogs{
+    padding: 4%;
+}

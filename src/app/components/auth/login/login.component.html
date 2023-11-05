@@ -1,0 +1,24 @@
+<div class="login">
+    <div class="loginform">
+        <h1>Login</h1>
+        <form>
+            <div class="form-row align-items-center">
+                <div class="col-sm-12 my-1">
+                    <input type="email" [(ngModel)]="user.email" [ngModelOptions]="{standalone: true}"  class="form-control" id="email" placeholder="Email">
+                </div>
+                <br>
+                
+                <div class="col-sm-12 my-1">
+                    <input type="text" [(ngModel)]="user.password" [ngModelOptions]="{standalone: true}"  class="form-control" id="password" placeholder="Password">
+                </div>
+                <br>
+                <a href="" class="forgot float-end">Forgot password</a>
+               <br>
+                <div class="col-sm-12 my-1">
+                    <button type="submit" (click)="login()" class="btn btn-primary">Login</button>
+                </div>
+                <p>Don't have Account <a routerLink="/register" class="forgot">Register</a></p>
+            </div>
+        </form>
+    </div>
+</div>

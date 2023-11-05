@@ -1,0 +1,35 @@
+.category .row {
+    padding: 4%;
+}
+
+.category .col-sm-12 {
+    border-radius: 10px;
+    height: auto;
+    background-color: white;
+}
+
+.list-group li {
+    margin: 3%;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.list-group-item {
+    cursor: pointer;
+    border: none;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: 2px 1px 2px 1px rgb(232, 232, 232);
+}
+
+.list-group-item:hover {
+    background-color: rgb(200, 219, 255);
+}
+
+.list-group button {
+    background-color: transparent;
+    text-align: left;
+    border: none;
+    width: 100%;
+}

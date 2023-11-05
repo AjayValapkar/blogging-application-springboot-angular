@@ -1,0 +1,25 @@
+.blog{
+    width: 70%;
+    margin: 3% auto auto 5%;
+}
+.mb-3 input{
+    padding: 1%;
+    height: 50px;
+    border-radius: 10px;
+}
+.mb-3 input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.mb-3 textarea{
+    border-radius: 10px;
+}
+.mb-3 textarea:focus{
+    outline: none;
+    box-shadow: none;
+}
+@media (max-width:500px) {
+    .blog{
+        width: 100%;
+    }
+}

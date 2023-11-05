@@ -1,0 +1,66 @@
+.col-sm-4 {
+    padding: 2%;
+}
+
+.col-sm-8 {
+    padding: 2%;
+}
+
+.list-group-item {
+    cursor: pointer;
+    border: none;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: 2px 1px 2px 1px rgb(232, 232, 232);
+}
+
+.list-group-item:hover {
+    background-color: rgb(200, 219, 255);
+}
+
+.card {
+    margin-bottom: 4%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 12px 12px 2px 1px rgb(240, 246, 255);
+}
+
+.card-header {
+    padding: 2%;
+    background-color: rgb(247, 251, 255);
+    border: none;
+}
+
+.card-footer {
+    background-color: rgb(247, 251, 255);
+    border: none;
+}
+
+.card-body p {
+    font-size: 18px;
+    color: rgb(125, 125, 125);
+}
+
+.actions {}
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+.actions button {
+    background-color: rgb(247, 251, 255);
+    border: none;
+    margin: 1%;
+}
+.blogs{
+    margin: 2%;
+}
+.load button{
+    background-color: white;
+    border: none;
+    font-weight: 600;
+    color: blue;
+}
+.comments{
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+}

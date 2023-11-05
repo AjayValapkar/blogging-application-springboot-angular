@@ -1,0 +1,23 @@
+<div class="blogs" >
+    <div class="newblog">
+        <i class="fa fa-sort-down" style="font-size:24px;color:red"></i>
+        <button type="submit" class="btn btn-success float-end" routerLink="/dashboard/newblog"> + New Blog</button>
+    </div>
+    <div class="card" *ngFor="let post of posts">
+        <div class="card-header">
+            {{ post.title }}
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                <p>{{ post.content }}</p>
+            </blockquote>
+        </div>
+        <div class="card-footer">
+            <div class=" action float-end">
+                <button class="btn btn-primary" [routerLink]="['/dashboard/editblog']" [queryParams]="{ blogid: post.blogId, cateId: post.categoryid }">Edit</button>
+                <button class="btn btn-danger"  (click)="delete(post.blogId)" >delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,48 @@
+.blogs{
+    width: 80%;
+    margin: 3% auto auto 4%;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    margin-bottom: 4%;
+}
+.blogs .newblog{
+    margin-bottom: 3%;
+}
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 12px 12px 2px 1px rgb(240, 246, 255);
+}
+
+.card-header {
+    padding: 2%;
+    background-color: rgb(247, 251, 255);
+    border: none;
+}
+
+.card-footer {
+    background-color: rgb(247, 251, 255);
+    border: none;
+}
+
+.card-body p {
+    font-size: 18px;
+    color: rgb(125, 125, 125);
+}
+
+.card-footer .action{
+    width: 20%;
+}
+.card-footer button{
+margin-right: 8%;
+}
+@media (max-width:500px) {
+    .blogs{
+        width: 90%;
+    }
+    .card-footer .action{
+        width: 40%;
+    }
+}
